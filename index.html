@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    
+    <!-- Header -->
+     <header class="loginHeader">
+        <h1 id="loginHeader_h1">Logo</h1>
+        <nav class="header_nav">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Help</a>
+            <button class="popup_btn">Login</button>
+        </nav>
+     </header>
+
+     <!-- Main -->
+      <main class="mainLogin">
+        
+        <!-- Close Icon -->
+        <button class="closeIcon">
+            <div class="cross"></div>
+        </button>
+
+        <!-- Section 1 -->
+
+        <section class="mainSection loginForm">
+            <h2>Login</h2>
+
+            <!-- section 1 article 1 -->
+             <article class="sectionInput">
+                <span class="inputIcon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <input type="email" id="email" name="email" placeholder=" " required>
+                <div class="InputBottomBorder"></div>
+                <label for="email" class="label">Email</label>
+             </article>
+
+             <!-- section 1 article 2 -->
+              <article class="sectionInput">
+                <span class="inputIcon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </span>
+                <input type="password" id="password" name="password" placeholder=" " required>
+                <div class="InputBottomBorder"></div>
+                <label for="password" class="label">Password</label>
+              </article>
+
+              <!-- section 1 article 3 -->
+               <article class="sectionRememberForgot">
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    Remember me
+                </label>
+                <span class="forgotLink"><a href="#">forgot password?</a></span>
+               </article>
+       
+
+        <!-- btn -->
+         <button type="submit" class="submitBtn">Login</button>
+
+         <!-- section 1 article 4 -->
+          <article class="sectionAuthentication">
+            <p>
+                Don't have an account?
+                <a href="#" class="registerNow">Register Now</a>
+            </p>
+          </article>
+          </section>
+
+
+        <!-- Section 2 --- Registeration Form -->
+
+        <section class="mainSection registerationForm">
+            <h2>Registeration</h2>
+
+            <!-- section 2 article 1 -->
+             <article class="sectionInput">
+                <span class="inputIcon">
+                    <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <input type="text" id="text" name="text" placeholder=" " required>
+                <div class="InputBottomBorder"></div>
+                <label for="text" class="label">Username</label>
+             </article>
+
+             <!-- section 2 article 2 -->
+             <article class="sectionInput">
+                <span class="inputIcon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <input type="email" id="registerEmail" name="email" placeholder=" " required>
+                <div class="InputBottomBorder"></div>
+                <label for="registerEmail" class="label">Email</label>
+             </article>
+
+             <!-- section 2 article 3 -->
+              <article class="sectionInput">
+                <span class="inputIcon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </span>
+                <input type="password" id="registerPassword" name="password" placeholder=" " required>
+                <div class="InputBottomBorder"></div>
+                <label for="registerPassword" class="label">Password</label>
+              </article>
+
+              <!-- section 2 article 4 -->
+               <article class="sectionRememberForgot">
+                <label for="checkme">
+                    <input type="checkbox" id="checkme" name="checkbox">
+                    Remember me
+                </label>
+                <span class="forgotLink"><a href="#">forgot password?</a></span>
+               </article>
+       
+
+        <!-- btn -->
+         <button type="submit" class="submitBtn">Register Now</button>
+
+         <!-- section 2 article 5 -->
+          <article class="sectionAuthentication">
+            <p>
+                Already have an account?
+                <a href="#" class="accountExist">Login Now</a>
+            </p>
+          </article>
+          </section>
+      </main>
+
+</body>
+</html>
