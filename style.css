@@ -598,6 +598,8 @@ body {
    height: 500px;    
   }
 
+  
+
      .closeIcon:focus .cross::after,
      .closeIcon:hover .cross::after{
       animation: none;
@@ -660,7 +662,12 @@ body {
   }
   .mainLogin {
    width: 95%;
-   height: 500px;    
+   height: 550px;
+  }
+
+  .mainLogin .mainSection {
+    margin-top: 40px;
+    padding: 10px;
   }
 
      .closeIcon:focus .cross::after,
@@ -738,4 +745,14 @@ body {
   .registerationForm .sectionAuthentication {
     padding-bottom: 40px;
   }
+}
+
+/* Laptop Screens */
+@media screen and (min-width: 1025px) {
+
+    .mainLogin {
+        width: 450px;
+        height: 550px;
+        margin-top: 40px;
+    }
 }
