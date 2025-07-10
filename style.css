@@ -413,6 +413,7 @@ body::before {
 
 /* Registeration Section */
 .mainLogin .registerationForm h2 {
+  margin-top: 10px;
     margin-left: -15%;
 }
 
